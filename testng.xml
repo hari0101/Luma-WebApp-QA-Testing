@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="LumaUITest" verbose="5">
+	
+	<parameter name="Machine" 	value="Local"/>
+	<parameter name="OS" 		value="Windows"/>
+	<parameter name="Browser"	 value="Chrome"/>
+	
+	<parameter name="headless" 				value="false"/>
+	<parameter name="disableGPU" 			value="false"/>
+	<parameter name="AutomationControlInfo" value="true"/>
+	<parameter name="disableNotification" 	value="true"/>
+	<parameter name="incognito" 			value="false"/>
+	
+  <test thread-count="2" name="chrometest">
+	  <classes>
+	  		<class name="com.luma.LumaTest.HomepageTest"/>
+	  		 <class name="com.luma.LumaTest.CustomerLoginTest"/>
+	  </classes>
+  </test> <!-- ReportCheck -->
+</suite> <!-- LumaUITest -->

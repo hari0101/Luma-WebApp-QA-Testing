@@ -1,0 +1,8 @@
+{
+
+"smoketest" : "logintest",
+"sanitytest" : "Every element in field",
+"buildversion" : 1.2,
+"BuildPassed" : true
+
+}

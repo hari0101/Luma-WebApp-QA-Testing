@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [LumaUITest]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="headless" value="false"/>
+  <parameter name="OS" value="Windows"/>
+  <parameter name="disableGPU" value="false"/>
+  <parameter name="incognito" value="false"/>
+  <parameter name="disableNotification" value="true"/>
+  <parameter name="Machine" value="Local"/>
+  <parameter name="Browser" value="Chrome"/>
+  <parameter name="AutomationControlInfo" value="true"/>
+  <test thread-count="2" name="chrometest(failed)" verbose="5">
+    <classes>
+      <class name="com.luma.LumaTest.HomepageTest">
+        <methods>
+          <include name="initializeLocalDriver"/>
+          <include name="shutdownRemoteDriver"/>
+          <include name="initializeRemoteDriver"/>
+          <include name="shutdownLocalDriver"/>
+          <include name="basePageUrlValidation"/>
+        </methods>
+      </class> <!-- com.luma.LumaTest.HomepageTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [LumaUITest] -->
