@@ -13,9 +13,16 @@
 	<parameter name="incognito" 			value="false"/>
 	
   <test thread-count="2" name="chrometest">
+	<groups>
+		<run>
+			<include name="SMOKE"></include>
+			<include name="SANITY"></include>
+		</run>
+	</groups>
 	  <classes>
-	  		<class name="com.luma.LumaTest.HomepageTest"/>
-	  		 <class name="com.luma.LumaTest.CustomerLoginTest"/>
+	  		<!-- <class name="com.luma.LumaTest.HomepageTest"/>
+	  		<class name="com.luma.LumaTest.CustomerLoginTest"/>-->
+	  		<class name="com.luma.LumaTest.CreateNewCustomerAccountTest"></class>
 	  </classes>
-  </test> <!-- ReportCheck -->
-</suite> <!-- LumaUITest -->
+  </test> 
+</suite>

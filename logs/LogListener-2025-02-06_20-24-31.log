@@ -1,0 +1,53 @@
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [TestRunner] Running the tests in 'chrometest' with parallel mode:none 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@340da44c priority: 10 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [TestClass] Creating TestClass for [ClassImpl class=com.luma.LumaTest.CreateNewCustomerAccountTest] 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [TestClass] Adding method CreateNewCustomerAccountTest.invalidNewAccountCredentials()[pri:1, instance:null] on TestClass class com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [TestClass] Adding method CreateNewCustomerAccountTest.customerNewAccountUrlValidation()[pri:0, instance:null] on TestClass class com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 2 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including group : SMOKE 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.initializeLocalDriver() 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.initializeRemoteDriver() 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.shutdownLocalDriver() 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 15 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.shutdownRemoteDriver() 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.invalidNewAccountCredentials() 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.customerNewAccountUrlValidation() 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 5 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [TestNG] Running:
+  D:\EclipseWorkspace\Luma-WebApplication\testng.xml
+ 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [SuiteRunner] Created 1 TestRunners 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [TestRunner] Running test chrometest on 1  classes,  included groups:[SMOKE] excluded groups:[] 
+2025-02-06 20:24:32 [main] INFO org.testng.TestClass ===== Test class
+com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-06 20:24:32 [main] INFO org.testng.TestClass     @Test CreateNewCustomerAccountTest.invalidNewAccountCredentials()[pri:1, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@6eeade6c] 
+2025-02-06 20:24:32 [main] INFO org.testng.TestClass     @Test CreateNewCustomerAccountTest.customerNewAccountUrlValidation()[pri:0, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@6eeade6c] 
+2025-02-06 20:24:32 [main] INFO org.testng.TestClass ====== 
+2025-02-06 20:24:32 [main] INFO org.testng.internal.Utils [Invoker 1956415355] Invoking @BeforeTest BaseClass.initializeLocalDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@6eeade6c] 

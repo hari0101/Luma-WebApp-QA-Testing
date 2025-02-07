@@ -40,6 +40,10 @@ public class HomepageTestExecutor extends BaseTestExecutor{
 		return this;
 	}
 	
+	public HomePage getHomePagePOMElements() {
+		return hpLocators;
+	}
+	
 	//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX SIGN-IN-METHODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	
 	//Get the SignIn page url from the DOM.
@@ -72,7 +76,13 @@ public class HomepageTestExecutor extends BaseTestExecutor{
 		return elementUtil.getText(hpLocators.getCustomerGreetFullname());
 	}
 	
+	//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX CREATE-AN-ACCOUNT-METHODS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	
+	//Click the create an account link.
+	public CreateNewCustomerAccountTestExecutor clickCreateAnAccountLink() {
+		clickUtil.click(hpLocators.getCreateAnAccountLink());
+		return new CreateNewCustomerAccountTestExecutor(hpDriver);
+	}
 	
 	
 }

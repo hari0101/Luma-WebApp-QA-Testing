@@ -34,7 +34,7 @@ public class CustomerLoginTestExecutor extends BaseTestExecutor {
 	}
 	
 	//Get any customerLogin page webelements
-	public CustomerLoginPage getCustomerLoginWebElement(){
+	public CustomerLoginPage getCustomerLoginPOMElement(){
 		return clLocators;
 	}
 	
@@ -91,7 +91,7 @@ public class CustomerLoginTestExecutor extends BaseTestExecutor {
 	//JSON data for invalid logins
 	public String[][] getvalidSignInJsonData() {
 		//Below driven data is registered in the magento site.
-		return json.jsonArrayDataDriven("validLoginData", "emailaddress", "password", "fullname");
+		return json.jsonArrayDataDriven("validLoginData", "emailaddress", "password");
 	}
 
 }

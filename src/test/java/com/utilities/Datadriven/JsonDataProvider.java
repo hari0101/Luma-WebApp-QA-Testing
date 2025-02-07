@@ -13,11 +13,14 @@ public class JsonDataProvider {
 	}
 	//=========================================== METHODS ===========================================
 	
-	@DataProvider(name = "logintest")
+	@DataProvider(name = "CustomerLoginData")
 	public String[][] validLoginTestData() {
-		return util.jsonArrayDataDriven("logintest", "username", "password");
+		return util.jsonArrayDataDriven("customerlogintest", "emailaddress", "password");
 	}
 	
-
+	@DataProvider(name = "CreateAnAccountData")
+	public String[][] invalidNewAccountCredentials() {
+		return util.jsonArrayDataDriven("NewAccountRegisterTest", "firstname", "lastname", "emailaddress", "password", "confirmpassword");
+	}
 	
 }

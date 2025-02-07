@@ -1,0 +1,65 @@
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestRunner] Running the tests in 'chrometest' with parallel mode:none 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@340da44c priority: 10 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestClass] Creating TestClass for [ClassImpl class=com.luma.LumaTest.HomepageTest] 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestClass] Adding method HomepageTest.basePageUrlValidation()[pri:0, instance:null] on TestClass class com.luma.LumaTest.HomepageTest 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 1 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including group : SANITYTEST 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.initializeLocalDriver() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.initializeRemoteDriver() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.shutdownLocalDriver() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.shutdownRemoteDriver() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestClass] Creating TestClass for [ClassImpl class=com.luma.LumaTest.CustomerLoginTest] 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestClass] Adding method CustomerLoginTest.signInUrlValidation()[pri:0, instance:null] on TestClass class com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestClass] Adding method CustomerLoginTest.validSignInCredentials()[pri:2, instance:null] on TestClass class com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestClass] Adding method CustomerLoginTest.InvalidSignInCredentials()[pri:1, instance:null] on TestClass class com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [TestClass] Adding method CustomerLoginTest.customerLoginExternalData(java.lang.String,java.lang.String)[pri:3, instance:null] on TestClass class com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.basePageUrlValidation() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.signInUrlValidation() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.validSignInCredentials() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.InvalidSignInCredentials() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.customerLoginExternalData() 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms. 
+2025-02-06 16:15:27 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 9 ms. 

@@ -25,7 +25,7 @@ public class BaseClass {
 	 * 
 	 * initializeLocalDriver - helps to initialize the webdriver based on testng.xml requirement.
 	 */
-	@BeforeTest
+	@BeforeTest(groups = {"SMOKE", "SANITY"})
 	@Parameters({"Browser"})
 	public void initializeLocalDriver(ITestContext context, String browserType) {
 		Map<String, Object> driverOptions = this.driverOptionMap(context);

@@ -10,13 +10,22 @@
   <parameter name="Browser" value="Chrome"/>
   <parameter name="AutomationControlInfo" value="true"/>
   <test thread-count="2" name="chrometest(failed)" verbose="5">
+    <groups>
+      <run>
+        <include name="SANITY"/>
+      </run>
+    </groups>
     <classes>
+      <class name="com.luma.LumaTest.CustomerLoginTest">
+        <methods>
+          <include name="signInUrlValidation"/>
+          <include name="initializeLocalDriver"/>
+          <include name="customerLoginExternalData" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.luma.LumaTest.CustomerLoginTest -->
       <class name="com.luma.LumaTest.HomepageTest">
         <methods>
           <include name="initializeLocalDriver"/>
-          <include name="shutdownRemoteDriver"/>
-          <include name="initializeRemoteDriver"/>
-          <include name="shutdownLocalDriver"/>
           <include name="basePageUrlValidation"/>
         </methods>
       </class> <!-- com.luma.LumaTest.HomepageTest -->

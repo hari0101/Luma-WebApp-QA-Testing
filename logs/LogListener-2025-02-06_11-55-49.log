@@ -1,0 +1,123 @@
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestRunner] Running the tests in 'chrometest' with parallel mode:none 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@65fe9e33 priority: 10 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestClass] Creating TestClass for [ClassImpl class=com.luma.LumaTest.HomepageTest] 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestClass] Adding method HomepageTest.basePageUrlValidation()[pri:0, instance:null] on TestClass class com.luma.LumaTest.HomepageTest 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 2 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.initializeLocalDriver() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.initializeRemoteDriver() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.shutdownLocalDriver() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 28 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.shutdownRemoteDriver() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 1 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestClass] Creating TestClass for [ClassImpl class=com.luma.LumaTest.CustomerLoginTest] 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestClass] Adding method CustomerLoginTest.signInUrlValidation()[pri:0, instance:null] on TestClass class com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestClass] Adding method CustomerLoginTest.validSignInCredentials()[pri:2, instance:null] on TestClass class com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestClass] Adding method CustomerLoginTest.InvalidSignInCredentials()[pri:1, instance:null] on TestClass class com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 1 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 1 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.basePageUrlValidation() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.signInUrlValidation() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.validSignInCredentials() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.InvalidSignInCredentials() 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 7 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestNG] Running:
+  D:\EclipseWorkspace\Luma-WebApplication\testng.xml
+ 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [SuiteRunner] Created 1 TestRunners 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [TestRunner] Running test chrometest on 2  classes,  included groups:[] excluded groups:[] 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass ===== Test class
+com.luma.LumaTest.HomepageTest 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass     @Test HomepageTest.basePageUrlValidation()[pri:0, instance:com.luma.LumaTest.HomepageTest@2bd2b28e] 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass ====== 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass ===== Test class
+com.luma.LumaTest.CustomerLoginTest 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass     @Test CustomerLoginTest.signInUrlValidation()[pri:0, instance:com.luma.LumaTest.CustomerLoginTest@674658f7] 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass     @Test CustomerLoginTest.validSignInCredentials()[pri:2, instance:com.luma.LumaTest.CustomerLoginTest@674658f7] 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass     @Test CustomerLoginTest.InvalidSignInCredentials()[pri:1, instance:com.luma.LumaTest.CustomerLoginTest@674658f7] 
+2025-02-06 11:55:50 [main] INFO org.testng.TestClass ====== 
+2025-02-06 11:55:50 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Invoking @BeforeTest BaseClass.initializeLocalDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.luma.LumaTest.HomepageTest@2bd2b28e] 
+2025-02-06 11:56:54 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Skipping @BeforeTest BaseClass.initializeRemoteDriver(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:com.luma.LumaTest.HomepageTest@2bd2b28e] because it is not enabled 
+2025-02-06 11:56:54 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Skipping @BeforeTest BaseClass.shutdownLocalDriver()[pri:0, instance:com.luma.LumaTest.HomepageTest@2bd2b28e] because it is not enabled 
+2025-02-06 11:56:54 [main] INFO org.testng.internal.Utils [Utils] DynamicGraphHelper.createDynamicGraph() took 11 ms. 
+2025-02-06 11:56:54 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:56:54 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:56:54 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Invoking com.luma.LumaTest.HomepageTest.basePageUrlValidation 
+2025-02-06 11:56:56 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:56:56 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:56:56 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:56:56 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:56:56 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Invoking com.luma.LumaTest.CustomerLoginTest.signInUrlValidation 
+2025-02-06 11:57:00 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:57:00 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:57:00 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Invoking com.luma.LumaTest.CustomerLoginTest.InvalidSignInCredentials 
+2025-02-06 11:57:03 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:57:03 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:57:03 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Invoking com.luma.LumaTest.CustomerLoginTest.validSignInCredentials 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [Invoker 1037955032] No configuration methods found 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [Invoker 1037955032] Skipping @AfterTest BaseClass.shutdownRemoteDriver()[pri:0, instance:com.luma.LumaTest.HomepageTest@2bd2b28e] because it is not enabled 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]] Attempting to create D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest\chrometest.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]]   Directory D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest exists: true 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils Creating D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest\chrometest.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.jq.Main@670b3ca: 78 ms 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]] Attempting to create D:\EclipseWorkspace\Luma-WebApplication\test-output\testng-failed.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]]   Directory D:\EclipseWorkspace\Luma-WebApplication\test-output exists: true 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils Creating D:\EclipseWorkspace\Luma-WebApplication\test-output\testng-failed.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]] Attempting to create D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest\testng-failed.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]]   Directory D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest exists: true 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils Creating D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest\testng-failed.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.FailedReporter@3bb87d36: 22 ms 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.XMLReporter@3b5c665c: 11 ms 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7d7cac8: 6 ms 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]] Attempting to create D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports\TEST-com.luma.LumaTest.CustomerLoginTest.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]]   Directory D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports exists: true 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils Creating D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports\TEST-com.luma.LumaTest.CustomerLoginTest.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]] Attempting to create D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports\TEST-com.luma.LumaTest.HomepageTest.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [[Utils]]   Directory D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports exists: true 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils Creating D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports\TEST-com.luma.LumaTest.HomepageTest.xml 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@32b0876c: 14 ms 
+2025-02-06 11:57:06 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.internal.ExitCodeListener@2aaf152b: 0 ms 

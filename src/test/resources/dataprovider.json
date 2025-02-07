@@ -1,22 +1,57 @@
 {
 	
-	"logintest" : [
+	"validnewdata" : [
+		{
+			"firstname" : "Eren", "lastname" : "Edgar", "emailaddress": "erenedgar.dev1@gmail.com",
+			"password": "Edgareren01@!#", "confirmpassword" : "Edgareren01@!#"	
+		}
+	],
+	
+	"customerlogintest" : [
 		{	
-			"username" : "standard_user",
-			"password" : "secret_sauce"	
+			"emailaddress" : "jessiemagento27@gmail.com",
+			"password" : "Magento"	
 		},
 		{	
-			"username" : "problem_user",
-			"password" : "secret_sauce"	
+			"emailaddress" : "jessiemagento@gmail.com",
+			"password" : "Magento890@!#"	
 		},	
 		{	
-			"username" : "locked_out_user",
-			"password" : "secret_sauce"	
+			"emailaddress" : "jessiemagento@gmail.com",
+			"password" : "Magento"	
 		},
 		{	
-			"username" : "jenkins_build",
-			"password" : "secret_sauce"	
+			"emailaddress" : "jessiemagento27@gmail.com",
+			"password" : "Magento890@!#"	
+		}
+	],
+
+	"NewAccountRegisterTest" : [
+		{
+			"firstname" : "Eren@1", "lastname" : "Edgar", "emailaddress": "erenedgar.dev1@gmail.com",
+			"password": "Edgareren01@!#", "confirmpassword" : "Edgareren01@!#"			
+		},
+		
+		{
+			"firstname" : "Eren", "lastname" : "Edgar#2", "emailaddress": "erenedgar.dev1@gmail.com",
+			"password": "Edgareren01@!#", "confirmpassword" : "Edgareren01@!#"			
+		},
+		
+		{
+			"firstname" : "Eren", "lastname" : "Edgar", "emailaddress": "erenedgar.dev1@gmail",
+			"password": "Edgareren01@!#", "confirmpassword" : "Edgareren01@!#"			
+		},
+		
+		{
+			"firstname" : "Eren", "lastname" : "Edgar", "emailaddress": "erenedgar.dev1@gmail.com",
+			"password": "Edgar", "confirmpassword" : "Edgareren01@!#"			
+		},
+		
+		{
+			"firstname" : "Eren", "lastname" : "Edgar", "emailaddress": "erenedgar.dev1@gmail.com",
+			"password": "Edgareren01@!#", "confirmpassword" : "Edgareren01@"			
 		}
 	]
+
 
 }

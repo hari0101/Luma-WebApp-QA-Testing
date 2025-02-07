@@ -21,11 +21,13 @@ public class HomePage {
 	}
 	
 	@FindBy(css = "div[class='panel header'] li[data-label='or'] a")
-	private WebElement signInLink;
+	private WebElement signInLink;	
 	
 	@FindBy(css = ".greet > span")
 	private WebElement customerGreetFullname;
 	
+	@FindBy(css = "header[class='page-header'] li:nth-child(3) a:nth-child(1)")
+	private WebElement createAnAccountLink;
 	//============================================ METHODS ============================================
 	
 	public void initHomePageElements() {

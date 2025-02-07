@@ -1,0 +1,95 @@
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestRunner] Running the tests in 'chrometest' with parallel mode:none 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@340da44c priority: 10 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestClass] Creating TestClass for [ClassImpl class=com.luma.LumaTest.CreateNewCustomerAccountTest] 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestClass] Adding method CreateNewCustomerAccountTest.validNewAccountCredentials()[pri:2, instance:null] on TestClass class com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestClass] Adding method CreateNewCustomerAccountTest.invalidNewAccountCredentials()[pri:1, instance:null] on TestClass class com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestClass] Adding method CreateNewCustomerAccountTest.externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:null] on TestClass class com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestClass] Adding method CreateNewCustomerAccountTest.customerNewAccountUrlValidation()[pri:0, instance:null] on TestClass class com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 1 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including group : SANITY 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including group : SMOKE 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.shutdownLocalDriver() 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.initializeLocalDriver() 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.initializeRemoteDriver() 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 17 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Excluding method com.luma.LumaTest.shutdownRemoteDriver() 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.invalidNewAccountCredentials() 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.externalDataNewAccountCredentials() 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [XmlMethodSelector] Including method com.luma.LumaTest.customerNewAccountUrlValidation() 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 5 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Utils] MethodGroupsHelper.sortMethods() took 0 ms. 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestNG] Running:
+  D:\EclipseWorkspace\Luma-WebApplication\testng.xml
+ 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [SuiteRunner] Created 1 TestRunners 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [TestRunner] Running test chrometest on 1  classes,  included groups:[SANITY SMOKE] excluded groups:[] 
+2025-02-07 18:46:24 [main] INFO org.testng.TestClass ===== Test class
+com.luma.LumaTest.CreateNewCustomerAccountTest 
+2025-02-07 18:46:24 [main] INFO org.testng.TestClass     @Test CreateNewCustomerAccountTest.validNewAccountCredentials()[pri:2, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950] 
+2025-02-07 18:46:24 [main] INFO org.testng.TestClass     @Test CreateNewCustomerAccountTest.invalidNewAccountCredentials()[pri:1, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950] 
+2025-02-07 18:46:24 [main] INFO org.testng.TestClass     @Test CreateNewCustomerAccountTest.externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950] 
+2025-02-07 18:46:24 [main] INFO org.testng.TestClass     @Test CreateNewCustomerAccountTest.customerNewAccountUrlValidation()[pri:0, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950] 
+2025-02-07 18:46:24 [main] INFO org.testng.TestClass ====== 
+2025-02-07 18:46:24 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking @BeforeTest BaseClass.initializeLocalDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950] 
+2025-02-07 18:46:33 [main] INFO org.testng.internal.Utils [Utils] DynamicGraphHelper.createDynamicGraph() took 13 ms. 
+2025-02-07 18:46:33 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:33 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:33 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking com.luma.LumaTest.CreateNewCustomerAccountTest.customerNewAccountUrlValidation 
+2025-02-07 18:46:36 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:36 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:36 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking com.luma.LumaTest.CreateNewCustomerAccountTest.invalidNewAccountCredentials 
+2025-02-07 18:46:39 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:39 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:39 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking com.luma.LumaTest.CreateNewCustomerAccountTest.externalDataNewAccountCredentials 
+2025-02-07 18:46:44 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:44 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:44 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking com.luma.LumaTest.CreateNewCustomerAccountTest.externalDataNewAccountCredentials 
+2025-02-07 18:46:47 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:47 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:47 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking com.luma.LumaTest.CreateNewCustomerAccountTest.externalDataNewAccountCredentials 
+2025-02-07 18:46:49 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:49 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:49 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking com.luma.LumaTest.CreateNewCustomerAccountTest.externalDataNewAccountCredentials 
+2025-02-07 18:46:49 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:49 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:49 [main] INFO org.testng.internal.Utils [Invoker 24039137] Invoking com.luma.LumaTest.CreateNewCustomerAccountTest.externalDataNewAccountCredentials 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [Invoker 24039137] No configuration methods found 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [[Utils]] Attempting to create D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest\chrometest.xml 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [[Utils]]   Directory D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest exists: true 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils Creating D:\EclipseWorkspace\Luma-WebApplication\test-output\LumaUITest\chrometest.xml 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.jq.Main@2f860823: 69 ms 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.FailedReporter@696b4a95: 1 ms 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.XMLReporter@61a91c9b: 13 ms 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2f0ed952: 7 ms 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [[Utils]] Attempting to create D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports\TEST-com.luma.LumaTest.CreateNewCustomerAccountTest.xml 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [[Utils]]   Directory D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports exists: true 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils Creating D:\EclipseWorkspace\Luma-WebApplication\test-output\junitreports\TEST-com.luma.LumaTest.CreateNewCustomerAccountTest.xml 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4832f03b: 9 ms 
+2025-02-07 18:46:50 [main] INFO org.testng.internal.Utils [TestNG] Time taken by org.testng.internal.ExitCodeListener@7af3874e: 0 ms 

@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-02T20:43:26 IST" name="LumaUITest" finished-at="2025-02-02T20:43:47 IST" duration-ms="21160">
+  <suite started-at="2025-02-07T18:46:24 IST" name="LumaUITest" finished-at="2025-02-07T18:46:50 IST" duration-ms="26565">
     <groups>
-      <group name="SMOKE_TEST">
-        <method signature="CustomerLoginTest.signInUrlValidation()[pri:0, instance:com.luma.LumaTest.CustomerLoginTest@52045dbe]" name="signInUrlValidation" class="com.luma.LumaTest.CustomerLoginTest"/>
-        <method signature="CustomerLoginTest.InvalidSignInCredentials()[pri:1, instance:com.luma.LumaTest.CustomerLoginTest@52045dbe]" name="InvalidSignInCredentials" class="com.luma.LumaTest.CustomerLoginTest"/>
-        <method signature="CustomerLoginTest.validSignInCredentials()[pri:2, instance:com.luma.LumaTest.CustomerLoginTest@52045dbe]" name="validSignInCredentials" class="com.luma.LumaTest.CustomerLoginTest"/>
-        <method signature="HomepageTest.basePageUrlValidation()[pri:0, instance:com.luma.LumaTest.HomepageTest@2313052e]" name="basePageUrlValidation" class="com.luma.LumaTest.HomepageTest"/>
-      </group> <!-- SMOKE_TEST -->
+      <group name="SANITY">
+        <method signature="CreateNewCustomerAccountTest.externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" name="externalDataNewAccountCredentials" class="com.luma.LumaTest.CreateNewCustomerAccountTest"/>
+      </group> <!-- SANITY -->
+      <group name="SMOKE">
+        <method signature="CreateNewCustomerAccountTest.customerNewAccountUrlValidation()[pri:0, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" name="customerNewAccountUrlValidation" class="com.luma.LumaTest.CreateNewCustomerAccountTest"/>
+        <method signature="CreateNewCustomerAccountTest.invalidNewAccountCredentials()[pri:1, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" name="invalidNewAccountCredentials" class="com.luma.LumaTest.CreateNewCustomerAccountTest"/>
+      </group> <!-- SMOKE -->
     </groups>
-    <test started-at="2025-02-02T20:43:26 IST" name="chrometest" finished-at="2025-02-02T20:43:47 IST" duration-ms="21160">
-      <class name="com.luma.LumaTest.CustomerLoginTest">
-        <test-method signature="signInUrlValidation()[pri:0, instance:com.luma.LumaTest.CustomerLoginTest@52045dbe]" started-at="2025-02-02T20:43:37 IST" name="signInUrlValidation" description="To verify the customer sign-in page launched successfully!" finished-at="2025-02-02T20:43:41 IST" duration-ms="3242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signInUrlValidation -->
-        <test-method signature="InvalidSignInCredentials()[pri:1, instance:com.luma.LumaTest.CustomerLoginTest@52045dbe]" started-at="2025-02-02T20:43:41 IST" name="InvalidSignInCredentials" description="To verify the valid [ emailadress &amp; password ] which is not registered should not SIGN-IN" finished-at="2025-02-02T20:43:43 IST" depends-on-methods="com.luma.LumaTest.CustomerLoginTest.signInUrlValidation" duration-ms="2758" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidSignInCredentials -->
-        <test-method signature="validSignInCredentials()[pri:2, instance:com.luma.LumaTest.CustomerLoginTest@52045dbe]" started-at="2025-02-02T20:43:43 IST" name="validSignInCredentials" description="To verify the customer should login with valid [ emailadress &amp; password ] which is already register" finished-at="2025-02-02T20:43:47 IST" depends-on-methods="com.luma.LumaTest.CustomerLoginTest.signInUrlValidation" duration-ms="3228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validSignInCredentials -->
-      </class> <!-- com.luma.LumaTest.CustomerLoginTest -->
-      <class name="com.luma.LumaTest.HomepageTest">
-        <test-method is-config="true" signature="initializeLocalDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.luma.LumaTest.HomepageTest@2313052e]" started-at="2025-02-02T20:43:26 IST" name="initializeLocalDriver" finished-at="2025-02-02T20:43:36 IST" duration-ms="10284" status="PASS">
+    <test started-at="2025-02-07T18:46:24 IST" name="chrometest" finished-at="2025-02-07T18:46:50 IST" duration-ms="26565">
+      <class name="com.luma.LumaTest.CreateNewCustomerAccountTest">
+        <test-method is-config="true" signature="initializeLocalDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:24 IST" name="initializeLocalDriver" finished-at="2025-02-07T18:46:33 IST" duration-ms="9682" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2d4608a6]]>
+                <![CDATA[org.testng.TestRunner@3c50ad4b]]>
               </value>
             </param>
             <param index="1">
@@ -43,11 +30,170 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeLocalDriver -->
-        <test-method signature="basePageUrlValidation()[pri:0, instance:com.luma.LumaTest.HomepageTest@2313052e]" started-at="2025-02-02T20:43:36 IST" name="basePageUrlValidation" description="To verify the landing page of the website should be as requirement!" finished-at="2025-02-02T20:43:37 IST" duration-ms="1564" status="PASS">
+        <test-method signature="customerNewAccountUrlValidation()[pri:0, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:33 IST" name="customerNewAccountUrlValidation" description="To click and verify the create an account link is navigating the required page!" finished-at="2025-02-07T18:46:36 IST" duration-ms="2572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageUrlValidation -->
-      </class> <!-- com.luma.LumaTest.HomepageTest -->
+        </test-method> <!-- customerNewAccountUrlValidation -->
+        <test-method signature="invalidNewAccountCredentials()[pri:1, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:36 IST" name="invalidNewAccountCredentials" description="To verify already registered account should not create an new account again." finished-at="2025-02-07T18:46:39 IST" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidNewAccountCredentials -->
+        <test-method signature="externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:39 IST" name="externalDataNewAccountCredentials" description="To verify new customer account with different sets of invalid credentials" data-provider="CreateAnAccountData" finished-at="2025-02-07T18:46:44 IST" duration-ms="5053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eren@1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edgar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[erenedgar.dev1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- externalDataNewAccountCredentials -->
+        <test-method signature="externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:44 IST" name="externalDataNewAccountCredentials" description="To verify new customer account with different sets of invalid credentials" data-provider="CreateAnAccountData" finished-at="2025-02-07T18:46:47 IST" duration-ms="3029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eren]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edgar#2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[erenedgar.dev1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- externalDataNewAccountCredentials -->
+        <test-method signature="externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:47 IST" name="externalDataNewAccountCredentials" description="To verify new customer account with different sets of invalid credentials" data-provider="CreateAnAccountData" finished-at="2025-02-07T18:46:49 IST" duration-ms="1148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eren]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edgar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[erenedgar.dev1@gmail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- externalDataNewAccountCredentials -->
+        <test-method signature="externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:49 IST" name="externalDataNewAccountCredentials" description="To verify new customer account with different sets of invalid credentials" data-provider="CreateAnAccountData" finished-at="2025-02-07T18:46:49 IST" duration-ms="894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eren]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edgar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[erenedgar.dev1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edgar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- externalDataNewAccountCredentials -->
+        <test-method signature="externalDataNewAccountCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.luma.LumaTest.CreateNewCustomerAccountTest@a5bd950]" started-at="2025-02-07T18:46:49 IST" name="externalDataNewAccountCredentials" description="To verify new customer account with different sets of invalid credentials" data-provider="CreateAnAccountData" finished-at="2025-02-07T18:46:50 IST" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eren]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edgar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[erenedgar.dev1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edgareren01@!#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Edgareren01@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- externalDataNewAccountCredentials -->
+      </class> <!-- com.luma.LumaTest.CreateNewCustomerAccountTest -->
     </test> <!-- chrometest -->
   </suite> <!-- LumaUITest -->
 </testng-results>
